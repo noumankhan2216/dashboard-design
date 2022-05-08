@@ -1,0 +1,14 @@
+<mat-card class="bargraph-card">
+  <mat-card-title>Title</mat-card-title>
+  <mat-card-content>
+    <canvas baseChart 
+                [type]="'bar'"
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [plugins]="barChartPlugins"
+                  [legend]="barChartLegend"
+                  >
+                </canvas>
+  </mat-card-content>
+</mat-card>
