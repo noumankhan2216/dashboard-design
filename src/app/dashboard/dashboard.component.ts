@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartOptions, ChartType, ChartDataset } from 'chart.js';
-// import { Label } from 'ng2-charts';
 
 @Component({
   selector: 'app-dashboard',

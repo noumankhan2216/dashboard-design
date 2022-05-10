@@ -1,6 +1,23 @@
 .bargraph-card{
     display: block;
+    border-radius: 20px;
+}
+.mat-card-title {
+    text-align: center;
+    text-decoration: none;
+}
+
+.bargraph-mat-card-action {
+    justify-content: left;
+    justify-items: left;
+}
+.mat-card-button {
+    margin-left: 20px;
+}
+
+.mat-card-content {
+    display: block;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    
 }

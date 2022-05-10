@@ -1,14 +1,21 @@
 <mat-card class="bargraph-card">
-  <mat-card-title>Title</mat-card-title>
-  <mat-card-content>
+  <mat-card-title class="mat-card-title">Energy Consumption Garph</mat-card-title>
+  <mat-card-actions class="bargraph-mat-card-action">
+    <button mat-button class="mat-card-button">1D</button>
+    <button mat-button class="mat-card-button">1M</button>
+    <button mat-button class="mat-card-button">1Y</button>
+  </mat-card-actions>
+  <mat-card-content >
+   <div class="mat-card-content">
     <canvas baseChart 
-                [type]="'bar'"
-                  [datasets]="barChartData"
-                  [labels]="barChartLabels"
-                  [options]="barChartOptions"
-                  [plugins]="barChartPlugins"
-                  [legend]="barChartLegend"
-                  >
-                </canvas>
+    [type]="'bar'"
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      >
+    </canvas>
+   </div>
   </mat-card-content>
 </mat-card>
